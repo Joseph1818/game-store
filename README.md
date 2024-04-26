@@ -1,71 +1,30 @@
-# Getting Started with Create React App
+# Game-Store E-commerce Responsive Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Design Phase
 
-## Available Scripts
+#Wil get template of design on intern
 
-In the project directory, you can run:
+# Development Phase
 
-### `npm start`
+Choose a Tech Stack:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#technologies used front-end (HTML, CSS, JavaScript )
+- frameworks:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Front-End: React,Bootstrap
 
-### `npm test`
+back-end: (Node.js, Mongo_Db)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Implement Features:
+- registration/login, product search, filtering by genre/platform, shopping cart management, payment processing (using Stripe, PayPal, etc.), and order tracking.
 
-### `npm run build`
+# Integrate APIs:
+If you're selling digital games, integrate APIs from game platforms (e.g., Steam, PlayStation Store) for fetching game details, prices, and images.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Implement APIs for user authentication, email notifications, and any other third-party services.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# testing of the website’s functionality platforms
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Deployment Phase
+#Platform where the site will be deploy
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# game-store
