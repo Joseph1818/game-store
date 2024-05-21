@@ -1,14 +1,18 @@
 import "./App.css";
+import Home from "./components/Home/home";
 import Navbar from "./components/Navbar/navbar";
 
 function App() {
   return (
-    <section className="">
-      <div className="hero">
+    <div>
+      <section className="home">
         <Navbar />
-      </div>
-    </section>
-
+        <div className="hero">
+          <Home />
+        </div>
+      </section>
+      <section></section>
+    </div>
   );
 }
 

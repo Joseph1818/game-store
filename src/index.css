@@ -8,10 +8,8 @@ body {
 }
 
 :root {
-  --mainColor: #29335c;
+  --mainColor: #dc192b;
   --mainColorLighter: #5767aa;
-  --secondaryColor: #db2b39;
+  --secondaryColor: #110011;
   --textColor: #eee;
 }
-
-
