@@ -24,37 +24,34 @@ function Home() {
                     Acheter maintenant !
                   </a>
                 </div>
-                <img className="hero__img" src={img1} />
+                <div className="hero__img">
+                  <img src={img1} />
+                </div>
               </div>
             </div>
           </section>
           <section className="section__two">
-            <div className="wrapper">
-              <div className="row">
-                <div className="col">
-                  <img className="section__two_img" src={ps4_logo} />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-                <div className="col">
-                  <img className="section__two_img_ps5" src={ps5_logo} />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-                <div className="col">
-                  <img className="section__two_img_jbl" src={JBL_logo} />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
+            <div className="sale_points">
+              <div className="sale_point">
+                <h2>PS4</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div className="sale_point">
+                <h2>PS5</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div className="sale_point">
+                <h2>Other Accesoires</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
               </div>
             </div>
           </section>
