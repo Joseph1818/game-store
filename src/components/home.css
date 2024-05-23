@@ -1,0 +1,73 @@
+/* Section 1 */
+
+.wrapper {
+  padding: 2em;
+  margin: 0 auto;
+  width: 90%;
+}
+.intro-content {
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: var(--mainColor);
+  padding: 1em 2em;
+  cursor: pointer;
+  border-radius: 80px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}
+
+a:hover {
+  color: var(--secondaryColor);
+}
+
+nav a:hover {
+  color: var(--secondaryColor);
+}
+.hero-title {
+  font-size: 6vmin;
+  text-transform: uppercase;
+}
+.hero-text {
+  font-size: 2.5vh;
+  margin: 1.5rem 0;
+}
+.hero__img {
+  width: 40rem;
+  align-self: flex;
+}
+/* Setion 2 */
+
+.section__two {
+}
+.row {
+  display: flex;
+
+  /* Gap create space bettwen layout */
+  /* gap: 50px; */
+}
+.col {
+  width: 100;
+}
+.col + .col {
+  /* flex items */
+  margin-left: 50px;
+}
+
+.section__two_img {
+  width: 20rem;
+}
+.section__two_img_ps5 {
+  width: 30rem;
+}
+.section__two_img_jbl {
+  width: 10rem;
+  padding: 2rem;
+}
