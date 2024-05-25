@@ -54,7 +54,7 @@ const Navbar = () => {
           )}
         </div>
         <a href="#">Autres Accesoirs</a>
-        <a href="#">Écrire un avis</a>
+        <a href="#">À propos de nous</a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>

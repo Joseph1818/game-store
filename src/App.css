@@ -7,7 +7,7 @@
 @media (max-width: 768px) {
   .hero {
     background-position: top;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
   }
 }
