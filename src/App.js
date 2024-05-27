@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/footer";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
 
@@ -7,13 +8,10 @@ function App() {
     <div>
       <section className="home">
         <Navbar />
-        <div className="">
-          <Home />
-        </div>
+        <Home />
+        <Footer />
       </section>
-      <section className="game-list">
-      
-      </section>
+      <section className="game-list"></section>
     </div>
   );
 }

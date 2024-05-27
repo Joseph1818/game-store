@@ -46,8 +46,8 @@ function Home() {
                       alt=""
                     />
                     <h2> $ 400</h2>
-                    <p className="sales_point--p">Modele: PS4 pro </p>
-                    <p className="sales_point--p">Capacite: 1T </p>
+                    <p className="sales_point--p">modèle: PS4 pro </p>
+                    <p className="sales_point--p">capacité: 1T </p>
                     <a href="" className="btn sales_point__btn">
                       Acheter
                     </a>
@@ -64,8 +64,8 @@ function Home() {
                       alt=""
                     />
                     <h2> $ 550</h2>
-                    <p className="sales_point--p">Modele: PS5 normal </p>
-                    <p className="sales_point--p">Capacite: 1T </p>
+                    <p className="sales_point--p">modèle: PS5 normal </p>
+                    <p className="sales_point--p">capacité: 1T </p>
                     <a href="" className="btn sales_point__btn">
                       Acheter
                     </a>
@@ -82,8 +82,8 @@ function Home() {
                       alt=""
                     />
                     <h2> $ 400</h2>
-                    <p className="sales_point--p">Modele: xbox one S </p>
-                    <p className="sales_point--p">Capacite: 1T </p>
+                    <p className="sales_point--p">modèle: xbox one S </p>
+                    <p className="sales_point--p">capacité: 1T </p>
                     <a href="" className="btn sales_point__btn">
                       Acheter
                     </a>
