@@ -1,17 +1,17 @@
 import "./App.css";
-import Home from "./components/Home/home";
-import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/footer";
+import Home from "./components/home";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div>
       <section className="home">
         <Navbar />
-        <div className="hero">
-          <Home />
-        </div>
+        <Home />
+        <Footer />
       </section>
-      <section></section>
+      <section className="game-list"></section>
     </div>
   );
 }
