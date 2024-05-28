@@ -1,0 +1,28 @@
+.main__aboutUs{
+    height: 100vh;
+}
+
+.wrapper__aboutUs {
+    width: 80%;
+    display: flex;
+ 
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 6rem;
+    gap: 100px;
+    }
+.aboutUs__Text{
+    width: 60%;
+    align-items: center;
+
+}
+
+.aboutUs__img{
+    width: 30%;
+}
+.Text__h1{
+    text-align: center;
+}
+.aboutUs__img__h4{
+    text-align: center;
+}

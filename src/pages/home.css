@@ -39,7 +39,7 @@ img {
   padding: 1em 2em;
   cursor: pointer;
   border-radius: 80px;
-  font-size: 2vmin;
+  font-size: 1.4vmin;
 }
 
 .btn:hover,
@@ -55,7 +55,7 @@ nav a:hover {
   color: var(--secondaryColor);
 }
 .hero-title {
-  font-size: 6vmin;
+  font-size: 4vmin;
   text-transform: uppercase;
 }
 .hero-text {
@@ -71,6 +71,65 @@ nav a:hover {
   }
 }
 
+/* carouselle section */
+
+.carousel__wrapper {
+  padding: 1em;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  @media (max-width: 600px) {
+    width: 60%;
+    margin: 1rem auto;
+  }
+}
+
+.product--image {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  @media (max-width: 600px) {
+    height: fit-content;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+  padding: auto;
+  @media (max-width: 600px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.pruduct--name {
+  font-size: 1rem;
+}
+
+.price {
+  color: grey;
+  font-size: 1rem;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 2vmin;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
 /* Setion 2 */
 
 .sale_points {
@@ -79,6 +138,10 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  @media (max-width: 600px) {
+    width: 100%;
+    margin-top: 8rem;
+  }
 }
 
 @media (min-width: 40rem) {
