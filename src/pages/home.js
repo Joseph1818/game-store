@@ -10,9 +10,10 @@ import PS5_console from "./images/PS5_img1.png";
 import XBOX_console from "./images/XBOX_1_IMG.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Product from "./Product";
-import { productData, responsive } from "./data";
-
+import Product from "../components/Product";
+import { productData, responsive } from "../components/data";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 function Home() {
   const product = productData.map((item) => (
     <Product
@@ -22,11 +23,11 @@ function Home() {
       description={item.description}
     />
   ));
-
   return (
     <div>
       {
         <div className="main">
+          <Navbar />
           <section className="section__one">
             <div className="hero">
               <div className="wrapper row">
@@ -45,7 +46,6 @@ function Home() {
                   <img src={img1} alt="" />
                 </div>
               </div>
-
               <div className="carousel__wrapper">
                 <h1>Nouveautés</h1>
                 <Carousel showDots={true} responsive={responsive}>
@@ -54,7 +54,6 @@ function Home() {
               </div>
             </div>
           </section>
-
           <section className="section__two">
             <div className="sale_points">
               <div className="sale_point">
@@ -113,6 +112,7 @@ function Home() {
               </div>
             </div>
           </section>
+          <Footer />
         </div>
       }
     </div>
