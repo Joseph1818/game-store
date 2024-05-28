@@ -5,20 +5,35 @@
 .wrapper__aboutUs {
     width: 80%;
     display: flex;
- 
     justify-content: center;
     margin: 0 auto;
     margin-top: 6rem;
     gap: 100px;
+    flex-direction: row;
+    justify-content: center;
+    @media (max-width:40rem) {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
     }
 .aboutUs__Text{
     width: 60%;
     align-items: center;
-
+    @media (max-width:40rem) { 
+    width: 100%;
+    }
 }
 
 .aboutUs__img{
     width: 30%;
+    @media (max-width: 600px) {
+        justify-content: center;
+            width: 70%;
+            padding-top: 2rem;
+            margin: 0 auto;
+        }
 }
 .Text__h1{
     text-align: center;

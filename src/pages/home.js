@@ -14,6 +14,7 @@ import Product from "../components/Product";
 import { productData, responsive } from "../components/data";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
+
 function Home() {
   const product = productData.map((item) => (
     <Product
