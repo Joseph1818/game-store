@@ -9,7 +9,7 @@ const About = () => {
       <Navbar />
       <div className="wrapper__aboutUs">
         <div className="aboutUs__img">
-          <img src={DanImg} alt="" />
+          <img className="about__img_img" src={DanImg} alt="" />
           <h4 className="aboutUs__img__h4">Dan Umba - CEO</h4>
         </div>
         <div className="aboutUs__Text">

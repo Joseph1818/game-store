@@ -29,7 +29,7 @@ const Navbar = () => {
         <h3>Console Kingdom</h3>
       </div>
       <nav ref={navRef}>
-        <a href="#">Acceuil</a>
+        <a href="/home">Acceuil</a>
         <div className="dropdown">
           <button className="dropbtn" onClick={toggleDropdown}>
             PS5 <FaAngleDown /> {/* Dropdown icon */}
@@ -53,8 +53,7 @@ const Navbar = () => {
             </div>
           )}
         </div>
-        <a href="#">Autres Accesoirs</a>
-        <a href="#">À propos de nous</a>
+        <a href="/about">À propos de nous</a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
@@ -65,8 +64,7 @@ const Navbar = () => {
           <i className="gg-user-add user-add-icon"></i>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">Se connecter</a>
-              <a href="#">S'inscrire</a>
+              <a href="/login">Se connecter</a>
             </div>
           )}
         </div>
