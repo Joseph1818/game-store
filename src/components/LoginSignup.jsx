@@ -6,19 +6,19 @@ import password_icon from "./Assets/password.png";
 import { useState } from "react";
 
 const LoginSignup = () => {
-  const [action, setAction] = useState("S'enregistrer");
+  const [action, setAction] = useState("Register");
 
   return (
     <div className="main">
       <div className="container_login">
         <div className="header_login">
-          <div className="text_login">S'enregistrer</div>
+          <div className="text_login">{action}</div>
           <div className="underline"></div>
         </div>
         <div className="inputs_login">
           <div className="input_login">
             <img className="icon_img" src={user_icon} alt="" />
-            <input placeholder="Nom" type="text" />
+            <input placeholder="Name" type="text" />
           </div>
           <div className="input_login">
             <img className="icon_img" src={email_icon} alt="" />
@@ -26,10 +26,10 @@ const LoginSignup = () => {
           </div>
           <div className="input_login">
             <img className="icon_img" src={password_icon} alt="" />
-            <input placeholder="Mot de Passe" type="password" />
+            <input placeholder="Password" type="password" />
           </div>
           <div className="forgot-password">
-            Mot de passe oublié? <span>Clicker ici!</span>
+            Forgot Password? <span>Click here!</span>
           </div>
           <div className="submit-container">
             <a
@@ -41,18 +41,18 @@ const LoginSignup = () => {
                 setAction("S'enregistrer");
               }}
             >
-              S'enregistrer
+              Register
             </a>
             <a
               href=""
               className={
-                action === "S'enregistrer" ? "btn_login gray" : "btn_login"
+                action === "Register" ? "btn_login gray" : "btn_login"
               }
               onClick={() => {
-                setAction("Se connecter");
+                setAction("Login");
               }}
             >
-              Se connecter
+              Login
             </a>
           </div>
         </div>

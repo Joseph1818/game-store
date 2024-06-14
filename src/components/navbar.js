@@ -29,15 +29,15 @@ const Navbar = () => {
         <h3>Console Kingdom</h3>
       </div>
       <nav ref={navRef}>
-        <a href="/home">Acceuil</a>
+        <a href="/home">Home</a>
         <div className="dropdown">
           <button className="dropbtn" onClick={toggleDropdown}>
             PS5 <FaAngleDown /> {/* Dropdown icon */}
           </button>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">Jeux</a>
-              <a href="#">Manettes</a>
+              <a href="#">Game</a>
+              <a href="#">Controller</a>
             </div>
           )}
         </div>
@@ -48,12 +48,12 @@ const Navbar = () => {
           </button>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">Jeux</a>
-              <a href="#">Manettes</a>
+              <a href="#">Game</a>
+              <a href="#">Controller</a>
             </div>
           )}
         </div>
-        <a href="/about">À propos de nous</a>
+        <a href="/about">About us</a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
@@ -64,7 +64,7 @@ const Navbar = () => {
           <i className="gg-user-add user-add-icon"></i>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="/login">Se connecter</a>
+              <a href="/login">Login</a>
             </div>
           )}
         </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
           <i class="gg-shopping-cart shopping-cart-icon"></i>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">Voir le panier</a>
+              <a href="#">see Cart</a>
             </div>
           )}
         </div>

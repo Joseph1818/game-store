@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="footerNav">
             <ul>
               <li>
-                <a href="">Acceuil</a>
+                <a href="">Home</a>
               </li>
               <li>
                 <a href="">Playstation</a>
@@ -35,13 +35,13 @@ const Footer = () => {
                 <a href="">Xbox</a>
               </li>
               <li>
-                <a href="">Autres Accesoirs</a>
+                <a href="">Other accessories</a>
               </li>
               <li>
-                <a href="">À propos de nous</a>
+                <a href="">About us</a>
               </li>
               <li>
-                <a href="">Contactez-nous</a>
+                <a href="">Contact-us</a>
               </li>
             </ul>
           </div>

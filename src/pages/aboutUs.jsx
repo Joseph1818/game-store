@@ -15,32 +15,29 @@ const About = () => {
         <div className="aboutUs__Text">
           <h1 className="Text__h1">Notre Mission</h1>
           <p className="">
-            Bienvenue chez Console Kingdom! Nous sommes passionnés par tout ce
-            qui touche aux jeux vidéo, aux enceintes et aux accessoires
-            électroniques. Notre vision est de créer un royaume où chaque
-            passionné de technologie trouve son bonheur, qu'il soit joueur,
-            audiophile ou amateur de gadgets innovants. Nous proposons également
-            une sélection soignée de haut-parleurs et d'accessoires
-            électroniques pour améliorer votre expérience multimédia.
+            Welcome to Console Kingdom! We are passionate about everything
+            related to video games, speakers, and electronic accessories. Our
+            vision is to create a kingdom where every tech enthusiast finds
+            their happiness, whether they are gamers, audiophiles, or fans of
+            innovative gadgets. We also offer a curated selection of speakers
+            and electronic accessories to enhance your multimedia experience.
           </p>
           <p>
             {" "}
-            Chez Console Kingdom, nous croyons que les jeux vidéo sont plus
-            qu'un simple divertissement – ils sont une forme d'art, une manière
-            de se connecter avec les autres et une source d'inspiration. Nous
-            nous engageons à offrir une vaste gamme de jeux, de consoles et
-            d'accessoires pour satisfaire les besoins de tous les joueurs, des
-            débutants aux experts. Mais notre royaume ne s'arrête pas aux jeux
-            vidéo.
+            At Console Kingdom, we believe that video games are more than just
+            entertainment—they are a form of art, a way to connect with others,
+            and a source of inspiration. We are committed to providing a wide
+            range of games, consoles, and accessories to meet the needs of all
+            players, from beginners to experts. But our kingdom doesn't stop at
+            video games.
             <p>
-              Que vous cherchiez des enceintes pour sublimer votre son ou des
-              gadgets high-tech pour simplifier votre quotidien, Console Kingdom
-              est là pour vous offrir les meilleures solutions. Notre mission
-              est simple : fournir des produits de haute qualité, un service
-              client exceptionnel et une expérience d'achat unique. Nous voulons
-              que chaque visite chez Console Kingdom soit une aventure
-              passionnante où vous découvrez de nouvelles possibilités et
-              trouvez exactement ce que vous cherchez.
+              Whether you're looking for speakers to elevate your sound or
+              high-tech gadgets to simplify your daily life, Console Kingdom is
+              here to offer the best solutions. Our mission is simple: to
+              provide high-quality products, exceptional customer service, and a
+              unique shopping experience. We want every visit to Console Kingdom
+              to be an exciting adventure where you discover new possibilities
+              and find exactly what you are looking for.
             </p>
           </p>
         </div>
