@@ -33,14 +33,14 @@ function Home() {
             <div className="hero">
               <div className="wrapper row">
                 <div className="intro-content">
-                  <h1 className="hero-title">Special 0ffre sur nos PS5</h1>
+                  <h1 className="hero-title">Special Offer on our PS5</h1>
                   <p className="">
-                    Profitez de nos soldes exceptionnelles ! Ne manquez pas
-                    cette opportunité unique de bénéficier de réductions
-                    incroyables sur une large sélection de produits.
+                    Take advantage of our exceptional sales! Don't miss this
+                    unique opportunity to benefit from incredible discounts on a
+                    wide selection of products."
                   </p>
                   <a href="" className="btn">
-                    Acheter maintenant !
+                    Buy Now !
                   </a>
                 </div>
                 <div className="hero__img">
@@ -48,7 +48,7 @@ function Home() {
                 </div>
               </div>
               <div className="carousel__wrapper">
-                <h1>Nouveautés</h1>
+                <h1>New Arrivals</h1>
                 <Carousel showDots={true} responsive={responsive}>
                   {product}
                 </Carousel>
