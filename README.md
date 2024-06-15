@@ -1,5 +1,8 @@
 # Game-Store E-commerce Responsive Web Application
 
+#Compatible on Pc and Mobile phone display only!
+
+
 # Design Phase
 
 #Wil get template of design on intern
