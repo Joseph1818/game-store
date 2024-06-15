@@ -16,12 +16,10 @@ Front-End: React,Bootstrap
 back-end: (Node.js, Mongo_Db)
 
 # Implement Features:
-- registration/login, product search, filtering by genre/platform, shopping cart management, payment processing (using Stripe, PayPal, etc.), and order tracking.
+- Home,PS5(Game,Controller), PS4(game,Controller), About us, shopping cart management, payment processing (using Stripe, PayPal, etc.), and order tracking.
 
 # Integrate APIs:
-If you're selling digital games, integrate APIs from game platforms (e.g., Steam, PlayStation Store) for fetching game details, prices, and images.
-
-# Implement APIs for user authentication, email notifications, and any other third-party services.
+ Json Api (e.g., Steam, PlayStation Store) for fetching game details, prices, and images.
 
 # testing of the website’s functionality platforms
 
