@@ -13,7 +13,7 @@ const About = () => {
           <h4 className="aboutUs__img__h4">Dan Umba - CEO</h4>
         </div>
         <div className="aboutUs__Text">
-          <h1 className="Text__h1">Notre Mission</h1>
+          <h1 className="Text__h1">Our mission</h1>
           <p className="">
             Welcome to Console Kingdom! We are passionate about everything
             related to video games, speakers, and electronic accessories. Our

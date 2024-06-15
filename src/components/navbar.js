@@ -72,7 +72,7 @@ const Navbar = () => {
           <i class="gg-shopping-cart shopping-cart-icon"></i>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">see Cart</a>
+              <a href="/cart">see Cart</a>
             </div>
           )}
         </div>
