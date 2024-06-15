@@ -37,7 +37,7 @@ function Home() {
                   <p className="">
                     Take advantage of our exceptional sales! Don't miss this
                     unique opportunity to benefit from incredible discounts on a
-                    wide selection of products."
+                    wide selection of products.
                   </p>
                   <a href="" className="btn">
                     Buy Now !
@@ -70,7 +70,7 @@ function Home() {
                     <p className="sales_point--p">modèle: PS4 pro </p>
                     <p className="sales_point--p">capacité: 1T </p>
                     <a href="" className="btn sales_point__btn">
-                      Acheter
+                      Buy
                     </a>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ function Home() {
                     <p className="sales_point--p">modèle: PS5 normal </p>
                     <p className="sales_point--p">capacité: 1T </p>
                     <a href="" className="btn sales_point__btn">
-                      Acheter
+                      Buy
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ function Home() {
                     <p className="sales_point--p">modèle: xbox one S </p>
                     <p className="sales_point--p">capacité: 1T </p>
                     <a href="" className="btn sales_point__btn">
-                      Acheter
+                      Buy
                     </a>
                   </div>
                 </div>
