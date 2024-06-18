@@ -36,8 +36,8 @@ const Navbar = () => {
           </button>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">Game</a>
-              <a href="#">Controller</a>
+              <a href="/ps5Game">Game</a>
+              <a href="/ps5Controller">Controller</a>
             </div>
           )}
         </div>
@@ -48,8 +48,8 @@ const Navbar = () => {
           </button>
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">Game</a>
-              <a href="#">Controller</a>
+              <a href="/ps4Game">Game</a>
+              <a href="ps4Controller">Controller</a>
             </div>
           )}
         </div>
