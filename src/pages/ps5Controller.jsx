@@ -1,8 +1,7 @@
 import React from "react";
 
-const ps5Controller = () => {
-  
-  return <div>ps5Controller</div>;
-};
+function Ps5Controller() {
+  return <div></div>;
+}
 
-export default ps5Controller;
+export default Ps5Controller;

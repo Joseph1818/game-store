@@ -1,9 +1,11 @@
 import React from "react";
 
-const ps4Controller = () => {
-  return <div>
-    
-  </div>;
-};
+function Ps4Controller() {
+  return (
+    <div>
+   
+    </div>
+  );
+}
 
-export default ps4Controller;
+export default Ps4Controller;

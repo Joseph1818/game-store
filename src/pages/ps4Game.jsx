@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const ps4Game = () => {
-  return (
-    <div>ps4Game
-    </div>
-  )
+function Ps4Game() {
+  return <div></div>;
 }
 
-export default ps4Game;
+export default Ps4Game;
