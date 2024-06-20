@@ -136,3 +136,41 @@ export const ProductDataPs5 = [
     price: "$89.99",
   },
 ];
+
+export const ProductPs5Controller = [
+  {
+    id: 1,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430163_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "WHITE Controller PS5",
+    price: "$89.99",
+  },
+  {
+    id: 2,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562643_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Red Controller PS5",
+    price: "$99.99",
+  },
+  {
+    id: 3,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6492/6492317_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Blue Controller PS5",
+    price: "$99.99",
+  },
+  {
+    id: 4,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6497/6497953_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Galactic Purple PS5",
+    price: "$99.99",
+  },
+  {
+    id: 5,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522931_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Camo PS5",
+    price: "$99.99",
+  },
+];

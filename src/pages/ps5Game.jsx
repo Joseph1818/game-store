@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 import "./ps5Game.scss";
 import Carousel from "react-multi-carousel";
 import Product from "../components/Product";
-import { productData, responsive } from "../components/data";
+import { responsive } from "../components/data";
 import { ProductDataPs5 } from "../components/data";
 
 function Ps5Game() {
