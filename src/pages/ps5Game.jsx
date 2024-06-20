@@ -2,34 +2,31 @@ import React from "react";
 import Navbar from "../components/navbar";
 import "./ps5Game.scss";
 import Carousel from "react-multi-carousel";
+import Product from "../components/Product";
+import { productData, responsive } from "../components/data";
+import { ProductDataPs5 } from "../components/data";
 
 function Ps5Game() {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
+  const product = ProductDataPs5.map((item) => (
+    <Product
+      name={item.name}
+      url={item.imageurl}
+      price={item.price}
+      description={item.description}
+    />
+  ));
+
   return (
     <div className="main__ps5">
       <Navbar />
       <div className="ps5__container">
-        <p className="ps5__title"> PS5 Game</p>
+        <h2 className="game_heading"> PS5 Game</h2>
         <div className="ps5__parent">
-          <Carousel responsive={responsive}></Carousel>
+          <div className="carousel__wrapper__game">
+            <Carousel showDots={true} responsive={responsive}>
+              {product}
+            </Carousel>
+          </div>
         </div>
       </div>
     </div>
