@@ -156,7 +156,7 @@ export const ProductPs5Controller = [
     id: 3,
     imageurl:
       "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6492/6492317_sd.jpg;maxHeight=640;maxWidth=550",
-    name: "Blue Controller PS5",
+    name: "Blue PS4",
     price: "$99.99",
   },
   {
@@ -172,5 +172,144 @@ export const ProductPs5Controller = [
       "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522931_sd.jpg;maxHeight=640;maxWidth=550",
     name: "Camo PS5",
     price: "$99.99",
+  },
+];
+
+export const ProdcutPs4Game = [
+  {
+    id: 1,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6259/6259297_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "GTA PS4",
+    price: "$99.99",
+  },
+  {
+    id: 2,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6444/6444455_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "It takes 2 PS4",
+    price: "$19.99",
+  },
+  {
+    id: 3,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6540/6540862_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "CRASH TEAM PS4",
+    price: "$79.99",
+  },
+  {
+    id: 4,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517774_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Dead Island 2",
+    price: "$69.99",
+  },
+  {
+    id: 5,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4880/4880100_sa.jpg;maxHeight=640;maxWidth=550",
+    name: "Mortal Kombat ",
+    price: "$99.99",
+  },
+  {
+    id: 6,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5875/5875178_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "T LAST OF US PS4",
+    price: "$19.99",
+  },
+  {
+    id: 7,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501072_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Grand thurismo 7",
+    price: "$99.99",
+  },
+  {
+    id: 8,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5358/5358601_rd.jpg;maxHeight=640;maxWidth=550",
+    name: "Days Gone PS4",
+    price: "$19.99",
+  },
+  {
+    id: 9,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8539/8539004_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Until Dawn Three PS4",
+    price: "$99.99",
+  },
+  {
+    id: 10,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549701_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Avatar PS4",
+    price: "$99.99",
+  },
+];
+
+export const ProductPs4Controller = [
+  {
+    id: 1,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6200/6200230_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Navy Controller PS4",
+    price: "$79.99",
+  },
+  {
+    id: 2,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5580/5580915_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Black PS4 Controller",
+    price: "$79.99",
+  },
+  {
+    id: 3,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6381/6381722_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Red PS4 ",
+    price: "$79.99",
+  },
+  {
+    id: 4,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6393/6393259_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Geek Squad PS4",
+    price: "$99.99",
+  },
+  {
+    id: 5,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6381/6381885_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Gold PS4",
+    price: "$85.99",
+  },
+  {
+    id: 6,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6381/6381750_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Crystal PS4",
+    price: "$85.99",
+  },
+  {
+    id: 7,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6381/6381891_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Gold 2 PS4",
+    price: "$89.99",
+  },
+  {
+    id: 8,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517324_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Vitrix PS4 ",
+    price: "$129.99",
+  },
+  {
+    id: 9,
+    imageurl:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6564/6564742_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Nacon PS4",
+    price: "$199.99",
   },
 ];
