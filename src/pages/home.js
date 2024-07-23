@@ -17,14 +17,6 @@ import Navbar from "../components/navbar";
 import MyCarousel from "../components/MyCarousel";
 
 function Home() {
-  const product = productData.map((item) => (
-    <Product
-      name={item.name}
-      url={item.imageurl}
-      price={item.price}
-      description={item.description}
-    />
-  ));
   return (
     <div>
       {
@@ -50,7 +42,6 @@ function Home() {
               </div>
               <div className="carousel__wrapper">
                 <MyCarousel />
-                akjbf
               </div>
             </div>
           </section>
