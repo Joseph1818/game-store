@@ -50,6 +50,7 @@ function Home() {
               </div>
               <div className="carousel__wrapper">
                 <MyCarousel />
+                akjbf
               </div>
             </div>
           </section>
