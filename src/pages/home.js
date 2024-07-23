@@ -47,12 +47,12 @@ function Home() {
                   <img src={img1} alt="" />
                 </div>
               </div>
-              <div className="carousel__wrapper">
+              {/* <div className="carousel__wrapper">
                 <h1>New Arrivals</h1>
                 <Carousel showDots={true} responsive={responsive}>
                   {product}
                 </Carousel>
-              </div>
+              </div>  */}
             </div>
           </section>
           <section className="section__two">
