@@ -45,9 +45,7 @@ const LoginSignup = () => {
             </a>
             <a
               href=""
-              className={
-                action === "Register" ? "btn_login gray" : "btn_login"
-              }
+              className={action === "Register" ? "btn_login gray" : "btn_login"}
               onClick={() => {
                 setAction("Login");
               }}

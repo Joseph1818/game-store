@@ -14,6 +14,7 @@ import Product from "../components/Product";
 import { productData, responsive } from "../components/data";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
+import MyCarousel from "../components/MyCarousel";
 
 function Home() {
   const product = productData.map((item) => (
@@ -47,12 +48,9 @@ function Home() {
                   <img src={img1} alt="" />
                 </div>
               </div>
-              {/* <div className="carousel__wrapper">
-                <h1>New Arrivals</h1>
-                <Carousel showDots={true} responsive={responsive}>
-                  {product}
-                </Carousel>
-              </div>  */}
+              <div className="carousel__wrapper">
+                <MyCarousel />
+              </div>
             </div>
           </section>
           <section className="section__two">
