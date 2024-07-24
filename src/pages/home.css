@@ -67,9 +67,8 @@ img {
   text-decoration: none;
   color: white;
   background-color: var(--mainColor);
-  padding: 1em 2em;
+  padding: 10px 20px;
   cursor: pointer;
-  border-radius: 80px;
   font-size: 1.4vmin;
 }
 
@@ -116,7 +115,7 @@ nav a:hover {
   animation-name: slideUp;
   animation-duration: 1s;
   @media (max-width: 600px) {
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
     margin: 1rem auto;
   }
