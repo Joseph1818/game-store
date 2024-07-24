@@ -1,15 +1,38 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Carousel from "react-elastic-carousel";
+import Slider from "react-slick";
 import Item from "./item";
-import "./MyCarousel.scss";
 
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
-];
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4, // Default value
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 550,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
+
 const products = [
   {
     id: 1,
@@ -70,20 +93,18 @@ const products = [
 
 function MyCarousel() {
   return (
-    <>
-      <div className="carouselCard">
-        <Carousel breakPoints={breakPoints}>
-          {products.map((product) => (
-            <Item
-              key={product.id}
-              image={product.imageurl}
-              price={product.price}
-              onBuyClick={product.onBuyClick}
-            />
-          ))}
-        </Carousel>
-      </div>
-    </>
+    <div className="carouselCard">
+      <Slider {...settings}>
+        {products.map((product) => (
+          <Item
+            key={product.id}
+            image={product.imageurl}
+            price={product.price}
+            onBuyClick={product.onBuyClick}
+          />
+        ))}
+      </Slider>
+    </div>
   );
 }
 
