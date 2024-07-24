@@ -1,4 +1,3 @@
-
 import React from "react";
 import styled from "styled-components";
 
@@ -8,7 +7,7 @@ const StyledItem = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 60%;
+  width: 80%;
   background-color: #f0f0f0;
   color: #000;
   margin: 0 15px;

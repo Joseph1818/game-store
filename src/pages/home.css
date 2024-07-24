@@ -115,10 +115,13 @@ nav a:hover {
   animation-name: slideUp;
   animation-duration: 1s;
   @media (max-width: 600px) {
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
     margin: 0 auto;
   }
+}
+.carouselCard {
+  margin: 0 auto;
 }
 
 .product--image {
