@@ -114,6 +114,7 @@ nav a:hover {
   text-align: center;
   animation-name: slideUp;
   animation-duration: 1s;
+
   @media (max-width: 600px) {
     max-width: 80%;
     height: auto;
