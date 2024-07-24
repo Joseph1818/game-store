@@ -115,9 +115,9 @@ nav a:hover {
   animation-name: slideUp;
   animation-duration: 1s;
   @media (max-width: 600px) {
-    max-width: 90%;
+    max-width: 50%;
     height: auto;
-    margin: 1rem auto;
+    margin: 0 auto;
   }
 }
 
