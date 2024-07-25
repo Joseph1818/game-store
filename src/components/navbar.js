@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import { useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./Navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {
   FaBars,
   FaTimes,
@@ -13,10 +11,21 @@ import {
 
 const Navbar = () => {
   const navRef = useRef();
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownsOpen, setDropdownsOpen] = useState({
+    ps5: false,
+    ps4: false,
+    user: false,
+    cart: false,
+  });
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
+  const toggleDropdown = (name) => {
+    setDropdownsOpen((prev) => {
+      const newState = Object.keys(prev).reduce((acc, key) => {
+        acc[key] = key === name ? !prev[name] : false;
+        return acc;
+      }, {});
+      return newState;
+    });
   };
 
   const showNavBar = () => {
@@ -31,25 +40,25 @@ const Navbar = () => {
       <nav ref={navRef}>
         <a href="/home">Home</a>
         <div className="dropdown">
-          <button className="dropbtn" onClick={toggleDropdown}>
-            PS5 <FaAngleDown /> {/* Dropdown icon */}
+          <button className="dropbtn" onClick={() => toggleDropdown("ps5")}>
+            PS5 <FaAngleDown />
           </button>
-          {dropdownOpen && (
+          {dropdownsOpen.ps5 && (
             <div className="dropdown-content">
               <a href="/ps5Game">Game</a>
               <a href="/ps5Controller">Controller</a>
             </div>
           )}
         </div>
-        {/* Add similar dropdown buttons for "Games" and "Latest Release" */}
+
         <div className="dropdown">
-          <button className="dropbtn" onClick={toggleDropdown}>
+          <button className="dropbtn" onClick={() => toggleDropdown("ps4")}>
             PS4 <FaAngleDown />
           </button>
-          {dropdownOpen && (
+          {dropdownsOpen.ps4 && (
             <div className="dropdown-content">
               <a href="/ps4Game">Game</a>
-              <a href="ps4Controller">Controller</a>
+              <a href="/ps4Controller">Controller</a>
             </div>
           )}
         </div>
@@ -60,19 +69,25 @@ const Navbar = () => {
       </nav>
 
       <div className="main-container">
-        <div className="dropdown child-container" onClick={toggleDropdown}>
+        <div
+          className="dropdown child-container"
+          onClick={() => toggleDropdown("user")}
+        >
           <i className="gg-user-add user-add-icon"></i>
-          {dropdownOpen && (
+          {dropdownsOpen.user && (
             <div className="dropdown-content">
               <a href="/login">Login</a>
             </div>
           )}
         </div>
-        <div className="dropdown child-container" onClick={toggleDropdown}>
-          <i class="gg-shopping-cart shopping-cart-icon"></i>
-          {dropdownOpen && (
+        <div
+          className="dropdown child-container"
+          onClick={() => toggleDropdown("cart")}
+        >
+          <i className="gg-shopping-cart shopping-cart-icon"></i>
+          {dropdownsOpen.cart && (
             <div className="dropdown-content">
-              <a href="/cart">see Cart</a>
+              <a href="/cart">See Cart</a>
             </div>
           )}
         </div>
