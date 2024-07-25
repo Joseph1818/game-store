@@ -23,9 +23,11 @@ const Image = styled.img`
 `;
 
 const Price = styled.div`
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 15px;
 `;
+
+
 
 const Button = styled.button`
   padding: 10px 20px;
@@ -34,7 +36,6 @@ const Button = styled.button`
   color: #fff;
   border: none;
   cursor: pointer;
-
   &:hover {
     background-color: #000064;
   }

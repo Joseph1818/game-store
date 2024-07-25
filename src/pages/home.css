@@ -108,7 +108,6 @@ nav a:hover {
 
 .carousel__wrapper {
   position: relative;
-  z-index: -1;
   padding: 1em;
   margin: 0 auto;
   max-width: 60%;
@@ -116,6 +115,7 @@ nav a:hover {
   text-align: center;
   animation-name: slideUp;
   animation-duration: 1s;
+  z-index: 1;
   @media (max-width: 600px) {
     max-width: 80%;
     height: auto;
