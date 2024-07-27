@@ -57,8 +57,8 @@ function Home() {
                       alt=""
                     />
                     <h2> $ 400</h2>
-                    <p className="sales_point--p">modèle: PS4 pro </p>
-                    <p className="sales_point--p">capacité: 1T </p>
+                    <p className="sales_point--p">model: PS4 pro </p>
+                    <p className="sales_point--p">capacity: 1T </p>
                     <a href="" className="btn sales_point__btn">
                       Buy
                     </a>
@@ -93,8 +93,8 @@ function Home() {
                       alt=""
                     />
                     <h2> $ 400</h2>
-                    <p className="sales_point--p">modèle: xbox one S </p>
-                    <p className="sales_point--p">capacité: 1T </p>
+                    <p className="sales_point--p">model: xbox one S </p>
+                    <p className="sales_point--p">capacity: 1T </p>
                     <a href="" className="btn sales_point__btn">
                       Buy
                     </a>

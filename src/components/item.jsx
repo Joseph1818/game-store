@@ -17,17 +17,18 @@ const StyledItem = styled.div`
 
 const Image = styled.img`
   max-width: 100%;
-  max-height: 200px;
+  max-height: 100%;
   object-fit: cover;
   margin-bottom: 15px;
 `;
-
+const Description = styled.div`
+  font-size: 1em;
+  margin-bottom: 15px;
+`;
 const Price = styled.div`
   font-size: 1em;
   margin-bottom: 15px;
 `;
-
-
 
 const Button = styled.button`
   padding: 10px 20px;
@@ -41,10 +42,11 @@ const Button = styled.button`
   }
 `;
 
-const Item = ({ image, price, onBuyClick }) => {
+const Item = ({ image, description, price, onBuyClick }) => {
   return (
     <StyledItem>
       <Image src={image} alt="Product" />
+      <Description>{description}</Description>
       <Price>{price}</Price>
       <Button onClick={onBuyClick}>Buy</Button>
     </StyledItem>
