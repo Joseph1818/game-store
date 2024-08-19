@@ -11,7 +11,6 @@ header {
     z-index: 10;
 }
 
-
 nav a {
     margin: 0 2rem;
     color: var(--textColor);
@@ -158,7 +157,7 @@ gg-user-add {
 }
 
 
-// user-add-icon 
+
 .user-add-icon{ 
     cursor: pointer;
 }
@@ -166,7 +165,6 @@ gg-user-add {
     color: var(--secondaryColor);
 }
 
-//Shopping-cart original css
 .gg-shopping-bag {
     transform: scale(var(--ggs, 1))
 }
@@ -193,12 +191,12 @@ gg-user-add {
     left: 3px
 }
 
-// shopping-cart-icon
+
 
 .shopping-cart-icon{
     cursor: pointer;
 }
-// Shopping-cart and add user-add main container
+
 .main-container{
     display: flex;
 }
@@ -208,5 +206,5 @@ gg-user-add {
 }
 
 body.nav-open .carousel_wrapper {
-    display: none; // Hide carousel when nav is open
+    display: none; 
 }

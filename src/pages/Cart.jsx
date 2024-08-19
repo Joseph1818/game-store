@@ -7,7 +7,6 @@ import cartImg from "./images/cart_shopping.png";
 const Cart = () => {
   return (
     <div className="main_cart">
-      <Navbar />
       <div className="cart_container">
         <p className="cart_title">Shopping Cart</p>
         <div className="cart_parent">

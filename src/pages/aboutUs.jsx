@@ -6,7 +6,6 @@ import DanImg from "./images/Dan_pic.jpg";
 const About = () => {
   return (
     <div className="main__aboutUs">
-      <Navbar />
       <div className="wrapper__aboutUs">
         <div className="aboutUs__img">
           <img className="about__img_img" src={DanImg} alt="" />

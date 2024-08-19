@@ -18,7 +18,6 @@ function Ps5Game() {
 
   return (
     <div className="main__ps5">
-      <Navbar />
       <div className="ps5__container">
         <h2 className="game_heading"> PS5 Game</h2>
         <div className="ps5__parent">

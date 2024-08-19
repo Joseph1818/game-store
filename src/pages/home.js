@@ -21,7 +21,6 @@ function Home() {
     <div>
       {
         <div className="main">
-          <Navbar />
           <section className="section__one">
             <div className="hero">
               <div className="wrapper row">

@@ -18,7 +18,6 @@ function Ps5Controller() {
   return (
     <div>
       {" "}
-      <Navbar />
       <div className="ps5__container">
         <h2 className="game_heading"> PS5 Controller</h2>
         <div className="ps5__parent">
