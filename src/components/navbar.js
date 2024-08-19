@@ -92,8 +92,8 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <button className="nav-btn">
-        <FaBars onClick={showNavBar} />
+      <button className="nav-btn" onClick={showNavBar}>
+        <FaBars />
       </button>
     </header>
   );
