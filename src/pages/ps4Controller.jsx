@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/navbar";
 import "./ps5Game.scss";
 import Carousel from "react-multi-carousel";
 import Product from "../components/Product";
@@ -7,6 +6,7 @@ import { responsive } from "../components/data";
 import { ProductPs4Controller } from "../components/data";
 
 function Ps4Controller() {
+
   const product = ProductPs4Controller.map((item) => (
     <Product
       name={item.name}

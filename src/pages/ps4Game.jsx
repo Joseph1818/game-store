@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/navbar";
 import "./ps5Game.scss";
 import Carousel from "react-multi-carousel";
 import Product from "../components/Product";

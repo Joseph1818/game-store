@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutUs.scss";
-import Navbar from "../components/navbar";
 import DanImg from "./images/Dan_pic.jpg";
 
 const About = () => {

@@ -1,7 +1,7 @@
 export const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 1024 },
-    items: 5,
+    items: 4,
     slidesToSlide: 2,
   },
   desktop: {
@@ -21,18 +21,11 @@ export const responsive = {
 
 export const productData = [
   {
-    id: 1,
+    id: 7,
     imageurl:
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6381/6381722_sd.jpg;maxHeight=640;maxWidth=550",
-    name: "RED PS4 Controller",
-    price: "$79.99",
-  },
-  {
-    id: 2,
-    imageurl:
-      "https://5.imimg.com/data5/SELLER/Default/2023/6/317136830/LY/TG/CK/97262289/xbox-core-wireless-controller-carbon-black-500x500.jpg",
-    name: "Xbox Black controller",
-    price: "$79.99",
+      "https://media.takealot.com/covers_images/c7edd9effb994fdca78db8cbe3c00fd7/s-pdpxl.file",
+    name: "JBL Boombox ",
+    price: "$499.99",
   },
   {
     id: 3,
@@ -42,11 +35,11 @@ export const productData = [
     name: "White PS5 Headset",
   },
   {
-    id: 4,
+    id: 6,
     imageurl:
-      "https://multimedia.bbycastatic.ca/multimedia/products/400x400/175/17553/17553188.jpg",
-    name: " The Last of Us remast...",
-    price: "$49.99",
+      "https://media.takealot.com/covers_tsins/35537449/5026555284080-1-pdpxl.jpg",
+    name: "XBOX ONE GTA 5",
+    price: "$149.99",
   },
   {
     id: 5,
@@ -56,12 +49,13 @@ export const productData = [
     price: "$499.99",
   },
   {
-    id: 6,
+    id: 4,
     imageurl:
-      "https://media.takealot.com/covers_tsins/35537449/5026555284080-1-pdpxl.jpg",
-    name: "XBOX ONE GTA 5",
-    price: "$149.99",
+      "https://multimedia.bbycastatic.ca/multimedia/products/400x400/175/17553/17553188.jpg",
+    name: " The Last of Us remast...",
+    price: "$49.99",
   },
+
   {
     id: 7,
     imageurl:
@@ -75,6 +69,13 @@ export const productData = [
       "https://cdn.awsli.com.br/600x450/365/365753/produto/2487761517899208571.jpg",
     name: "FC 24 PS5 New ",
     price: "$99.99",
+  },
+  {
+    id: 2,
+    imageurl:
+      "https://5.imimg.com/data5/SELLER/Default/2023/6/317136830/LY/TG/CK/97262289/xbox-core-wireless-controller-carbon-black-500x500.jpg",
+    name: "Xbox Black controller",
+    price: "$79.99",
   },
 ];
 
@@ -144,13 +145,6 @@ export const ProductPs5Controller = [
       "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430163_sd.jpg;maxHeight=640;maxWidth=550",
     name: "WHITE Controller PS5",
     price: "$89.99",
-  },
-  {
-    id: 2,
-    imageurl:
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562643_sd.jpg;maxHeight=640;maxWidth=550",
-    name: "Red Controller PS5",
-    price: "$99.99",
   },
   {
     id: 3,
