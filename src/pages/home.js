@@ -14,7 +14,6 @@ import Product from "../components/Product";
 import { productData, responsive } from "../components/data";
 import Footer from "../components/footer";
 
-
 function Home() {
   const product = productData.map((item) => (
     <Product
@@ -65,7 +64,7 @@ function Home() {
                       src={PS4_console}
                       alt=""
                     />
-                    <h2> $ 400</h2>
+                    <h2> R 4999</h2>
                     <p className="sales_point--p">model: PS4 pro </p>
                     <p className="sales_point--p">capacity: 1T </p>
                     <a href="" className="btn sales_point__btn">
@@ -83,9 +82,9 @@ function Home() {
                       src={PS5_console}
                       alt=""
                     />
-                    <h2> $ 550</h2>
-                    <p className="sales_point--p">modèle: PS5 normal </p>
-                    <p className="sales_point--p">capacité: 1T </p>
+                    <h2> R 9999</h2>
+                    <p className="sales_point--p">model: PS5 normal </p>
+                    <p className="sales_point--p">capacity: 1T </p>
                     <a href="" className="btn sales_point__btn">
                       Buy
                     </a>
@@ -101,7 +100,7 @@ function Home() {
                       src={XBOX_console}
                       alt=""
                     />
-                    <h2> $ 400</h2>
+                    <h2> R 7599</h2>
                     <p className="sales_point--p">model: xbox one S </p>
                     <p className="sales_point--p">capacity: 1T </p>
                     <a href="" className="btn sales_point__btn">
