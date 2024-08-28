@@ -23,14 +23,13 @@ const Cart = () => {
               <p>Your Shopping cart is empty</p>
             </div>
             <div className="cart_button">
-              <a href="/home" className="cart_btn">
+              <a href="/" className="cart_btn">
                 Continue Shopping
               </a>
             </div>
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

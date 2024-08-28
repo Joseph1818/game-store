@@ -7,19 +7,19 @@ const Footer = () => {
       <div className="footer">
         <div className="footerContainer">
           <div className="scialIcons">
-            <a href="">
+            <a href="https://www.linkedin.com/in/joseph-umba-75a9051b0/">
               <i class="gg-facebook"></i>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/joseph-umba-75a9051b0/">
               <i class="gg-instagram"></i>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/joseph-umba-75a9051b0/">
               <i class="gg-twitter"></i>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/joseph-umba-75a9051b0/">
               <i class="gg-mail"></i>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/joseph-umba-75a9051b0/">
               <i class="gg-youtube"></i>
             </a>
           </div>
