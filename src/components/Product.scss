@@ -1,9 +1,11 @@
-.card{
+.card {
+    width: 100%;
     max-width: 100%;
+    box-sizing: border-box;
 
 }
-
 .product--image{
    max-width: 200px;
+   height: auto;
     
 }
